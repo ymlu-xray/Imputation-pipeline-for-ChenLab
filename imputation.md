@@ -25,7 +25,6 @@ curl https://imputationserver.sph.umich.edu/api/v2/jobs/submit/minimac4 \
 
 ## liftover:  
 Genome build: must change to grch37(hg19) for imputation server.  
-  - update 07/12: There's option to let the imputation server on the imputation server. But I haven't find if the qc tools can works with hg38. and I didn't find the reference file for hg38 for qc tools. So it would be best if we just do the imputation on our end.  
 
 Check the genome build of the data in readme or sampleinfo file.   
 Details about liftover see liftover protocol.  
